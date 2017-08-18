@@ -78,6 +78,10 @@ Defina os seguintes termos que são muito utilizados em testes e apresente como 
 ### Exercício 2:
 Apresente o projeto estrutural do framework.
 
+### Resposta:
+
+  ![Projeto estrutural](img.png)
+
 ### Exercício 3:
 O que é independência de testes e como ela é garantida pelo JUnit?
 
@@ -85,7 +89,7 @@ O que é independência de testes e como ela é garantida pelo JUnit?
 
   Independência de testes é quando o método de teste é independente de outro.
 
-  O JUnit garante a independência garantindo que mêtodos assinados com ```@Before``` e ```@After``` sejam executados antes e depois dos testes, respectivamente. Dessa forma, você garante que um informações compartilhadas entre os testes não estejam presentes nos testes em si. Caso haja muita informação compartilhada entre os testes, o correto é criar uma nova classe de teste.
+  O Junit gera instância diferentes de uma mesma classe para cada teste dentro de um caso de testes
 
 ### Exercício 4:
 
